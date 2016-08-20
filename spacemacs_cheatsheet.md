@@ -1,7 +1,7 @@
 `emacs --daemon` to run in the background.
 `emacsclient.emacs24 <filename/dirname>` to open in terminal
 
-NOTE: "`M-m` and `SPC` can be used interchangeably".
+NOTE: `M-m` and `SPC` can be used interchangeably
 
 * Undo - `C-/`
 * Redo - `C-?`
