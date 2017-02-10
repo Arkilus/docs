@@ -1,0 +1,18 @@
+#+TITLE: Development Workflow
+
+*** Ask: Why will someone want to use your application? Write a product description.
+*** Ask: What will a visitor first see and do? Write a user story for the home page.
+*** If you like to think visually, create wireframes for some of the important features.
+*** Create user stories for some of the important features.
+*** Generate a starter application with rails new or Rails Composer.
+*** Pick any user story. Make a static page using HTML to mock up what the user will see.
+*** Write a feature test to verify the content on your static page. This is your first code.
+*** Create a model. Use the model to set a variable containing some string from the static page.
+*** Create a controller. Give it the same name as the model. Create a route for the controller.
+*** Replace the static page with a dynamic page. Use the controller to set an instance variable and render a view.
+*** Does your feature test still pass? Modify your feature test if necessary.
+*** Ask: How will data displayed on the page get into the model? From a third-party API? A user-submitted form?
+*** Replace the hard-coded string in the model with dynamic data obtained from a user or an API.
+*** Check your feature test. Does it still pass? Do you need to change the test to use the model?
+*** Ask: Have you implemented the user story? Do you need to revise the user story?
+*** Commit your work to Git. Then throw it away if you’re not satisfied. You can always “do over” later.
